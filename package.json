@@ -1,0 +1,23 @@
+{
+  "name": "nodemongoapp",
+  "version": "1.0.0",
+  "description": "Simple Article app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NiallHolloway/NodeMongoApp.git"
+  },
+  "author": "Niall Holloway",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NiallHolloway/NodeMongoApp/issues"
+  },
+  "homepage": "https://github.com/NiallHolloway/NodeMongoApp#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "pug": "^2.0.0-rc.2"
+  }
+}
