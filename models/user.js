@@ -3,20 +3,22 @@ let mongoose = require('mongoose');
 //User Schema
 let UserSchema = mongoose.Schema({
   name:{
-    type: String,
-    required: true
+    type: String
   },
   email:{
-    type: String,
-    required: true
+    type: String
   },
   username:{
-    type: String,
-    required: true
+    type: String
   },
   password:{
-    type: String,
-    required: true
+    type: String
+  },
+  facebook : {
+    id           : String,
+    token        : String,
+    emails       : String,
+    name         : String
   }
 });
 
